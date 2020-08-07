@@ -2,4 +2,6 @@
 
 .cta {
   background-color: $color-primary-1;
+
+  grid-column: full-start / full-end;
 }
