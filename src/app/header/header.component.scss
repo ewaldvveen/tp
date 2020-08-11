@@ -1,7 +1,10 @@
 @import 'abstracts/_variables';
 
 .header {
-  background-color: $color-secondary-1;
-
   grid-column: full-start / full-end;
+
+  &__logo {
+    width: 26rem;
+    margin: 4rem;
+  }
 }
